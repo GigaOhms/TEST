@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"teststm32cube\startup_stm32f103xb.o"
+"teststm32cube\main.o"
+"teststm32cube\stm32f1xx_it.o"
+"teststm32cube\stm32f1xx_hal_msp.o"
+"teststm32cube\stm32f1xx_hal_gpio_ex.o"
+"teststm32cube\stm32f1xx_hal_adc.o"
+"teststm32cube\stm32f1xx_hal_adc_ex.o"
+"teststm32cube\stm32f1xx_hal.o"
+"teststm32cube\stm32f1xx_hal_rcc.o"
+"teststm32cube\stm32f1xx_hal_rcc_ex.o"
+"teststm32cube\stm32f1xx_hal_gpio.o"
+"teststm32cube\stm32f1xx_hal_dma.o"
+"teststm32cube\stm32f1xx_hal_cortex.o"
+"teststm32cube\stm32f1xx_hal_pwr.o"
+"teststm32cube\stm32f1xx_hal_flash.o"
+"teststm32cube\stm32f1xx_hal_flash_ex.o"
+"teststm32cube\stm32f1xx_hal_exti.o"
+"teststm32cube\stm32f1xx_hal_tim.o"
+"teststm32cube\stm32f1xx_hal_tim_ex.o"
+"teststm32cube\system_stm32f1xx.o"
+--strict --scatter "testSTM32cube\testSTM32cube.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "testSTM32cube.map" -o testSTM32cube\testSTM32cube.axf

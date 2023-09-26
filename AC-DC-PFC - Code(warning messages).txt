@@ -1,0 +1,3989 @@
+Date:	Thu Jun 15 13:37:39 2023
+
+File name:	C:\Users\Serena\Desktop\test\AC-DC-PFC - Code.psimsch
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 9.839100E-002    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 1.813290E-001    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 1.986890E-001    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.186890E-001    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.386890E-001    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.586890E-001    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.586890E-001    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.786890E-001    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.986890E-001    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.186890E-001    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.386890E-001    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.586890E-001    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.786890E-001    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.986890E-001    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 9.186890E-001    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 9.386890E-001    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 9.586890E-001    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 9.786890E-001    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 9.986890E-001    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 1.018689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 1.038689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 1.058689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 1.078689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.538689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.558689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.578689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.598689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.618689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.638689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.658689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.678689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.698689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.718689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.738689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.758689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.778689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.798689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.818689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.838689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.858689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.878689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.898689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.918689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.938689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.958689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.978689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.998689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.018689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.038689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.058689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.078689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.098689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.118689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.138689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.158689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.178689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.198689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.218689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.238689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.258689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.278689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.298689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.318689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.338689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.358689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.378689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.398689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.418689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.438689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.458689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.478689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.498689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.518689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.538689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.578689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.598689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.618689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.638689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.658689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.678689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.698689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.718689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.738689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.758689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.778689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.798689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.818689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.838689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.858689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.878689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.898689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.918689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.938689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.958689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.978689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.998689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.018689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.038689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.058689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.078689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.098689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.118689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.138689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.158689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.178689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.198689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.218689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.238689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.258689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.278689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.298689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.318689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.338689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.358689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.378689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.398689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.418689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.438689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.458689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.478689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.498689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.518689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.538689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.558689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.578689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.598689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.618689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.638689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.658689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.678689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.698689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.718689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.738689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.758689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.778689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.798689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.818689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.838689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.858689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.878689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.898689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.918689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.938689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.958689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.978689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.998689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.018689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.038689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.058689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.078689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.098689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.118689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.138689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.158689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.178689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.198689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.218689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.238689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.258689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.278689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.298689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.318689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.338689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.358689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.378689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.398689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.418689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.438689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.458689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.478689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.498689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.518689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.538689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.558689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.578689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.618689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.638689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.658689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.678689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.698689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.718689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.738689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.758689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.778689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.798689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.818689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.838689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.858689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.878689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.898689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.918689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.938689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.958689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.978689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.998689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.018689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.058689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.078689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.098689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.118689E+000    
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.138689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.158689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.178689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.198689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.218689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.238689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.258689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.278689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.298689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.318689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.338689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.358689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.378689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.398689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.418689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.438689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.458689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.478689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.498689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.518689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.538689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.558689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.578689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.598689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.618689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.638689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.658689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.678689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.698689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.718689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.738689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.758689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.778689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.818689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.838689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.858689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.878689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.898689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.918689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.958689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.978689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 6.998689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.018689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.058689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.078689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.098689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.118689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.138689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.158689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.178689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.198689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.218689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.238689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.258689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.278689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.298689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.318689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.338689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.358689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.378689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.398689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.418689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.438689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.458689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.478689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.498689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.518689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.558689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.578689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.598689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.618689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.638689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.658689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.678689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.698689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.718689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.738689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.758689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.778689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.798689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.818689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.838689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.858689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.878689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.898689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.918689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.938689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.958689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 7.998689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.018689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.038689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.058689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.078689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.098689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.118689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.138689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.158689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.178689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.198689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.218689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.238689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.258689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.278689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.298689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.318689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.358689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.378689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.398689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.418689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.438689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.458689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.478689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.498689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.518689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.538689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.558689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.578689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.598689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.618689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.638689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.658689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.678689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.698689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.718689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.738689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.758689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.778689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.798689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.818689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.838689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.858689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.878689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.898689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.918689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.938689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.958689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.978689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 8.998689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 9.018689E+000    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.065869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.067869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.069869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.071869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.073869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.075869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.077869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.079869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.081869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.083869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.085869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.087869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.089869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.091869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.093869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.095869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.097869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.099869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.101869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.103869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.105869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.107869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.109869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.111869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.113869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.115869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.117869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.119869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.121869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.123869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.125869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.127869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.129869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.131869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.133869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.135869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.137869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.139869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.141869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.143869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.145869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.147869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.149869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.151869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.153869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.155869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.157869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.159869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.161869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.163869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.165869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.167869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.169869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.171869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.173869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.175869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.177869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.179869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.181869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.183869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.185869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.187869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.189869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.191869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.193869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.195869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.197869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.199869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.201869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.203869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.205869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.207869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.209869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.211869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.213869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.215869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.217869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.219869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.221869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.223869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.225869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.227869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.229869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.231869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.233869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.235869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.237869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.239869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.241869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.243869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.245869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.249869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.251869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.253869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.255869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.257869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.259869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.261869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.263869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.265869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.267869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.269869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.271869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.275869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.279869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.281869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.283869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.285869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.287869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.289869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.291869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.293869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.295869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.297869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.299869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.301869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.303869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.307869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.309869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.311869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.313869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.315869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.317869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.319869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.321869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.323869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.325869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.329869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.331869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.333869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.335869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.337869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.339869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.341869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.343869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.345869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.347869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.349869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.351869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.353869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.355869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.357869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.359869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.361869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.363869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.367869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.369869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.371869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.373869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.377869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.379869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.381869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.383869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.385869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.387869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.389869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.391869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.393869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.397869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.399869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.401869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.403869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.405869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.407869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.409869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.411869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.413869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.415869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.417869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.419869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.421869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.423869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.425869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.427869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.429869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.431869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.433869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.435869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.437869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.439869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.441869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.443869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.445869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.447869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.449869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.451869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.453869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.457869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.459869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.461869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.463869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.465869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.467869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.469869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.471869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.473869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.475869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.477869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.479869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.481869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.485869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.487869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.489869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.491869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.493869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.495869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.497869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.499869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.501869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.503869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.505869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.507869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.509869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.511869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.515869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.517869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.519869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.521869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.523869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.527869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.529869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.531869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.533869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.535869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.539869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.541869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.543869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.545869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.547869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.549869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.551869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.553869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.555869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.557869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.559869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.561869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.563869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.565869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.567869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.569869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.571869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.573869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.575869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.577869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.579869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.581869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.583869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.585869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.587869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.589869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.591869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.593869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.595869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.597869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.599869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.601869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.603869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.605869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.607869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.609869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.611869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.613869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.615869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.617869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.619869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.621869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.623869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.625869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.629869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.631869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.633869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.635869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.637869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.639869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.641869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.645869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.647869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.649869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.653869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.655869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.657869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.659869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.661869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.663869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.665869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.669869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.671869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.673869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.675869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.677869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.679869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.683869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.685869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.687869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.689869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.691869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.693869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.695869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.697869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.699869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.701869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.703869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.705869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.707869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.709869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.711869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.713869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.715869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.717869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.719869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.721869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.723869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.725869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.731869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.733869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.735869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.737869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.739869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.741869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.743869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.745869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.747869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.749869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.751869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.753869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.755869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.757869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.759869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.761869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.763869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.767869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.769869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.771869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.773869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.777869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.779869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.781869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.783869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.785869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.787869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.789869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.791869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.793869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.795869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.797869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.799869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.801869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.803869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.805869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.807869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.809869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.811869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.813869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.815869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.817869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.819869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.821869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.823869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.825869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.827869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.829869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.831869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.833869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.835869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.837869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.839869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.841869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.845869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.849869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.853869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.855869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.857869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.859869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.861869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.863869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.865869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.869869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.871869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.873869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.875869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.877869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.879869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.881869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.883869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.885869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.887869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.893869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.895869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.897869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.899869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.901869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.903869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.907869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.909869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.911869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.913869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.915869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.917869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.919869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.921869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.923869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.925869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.929869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.931869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.933869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.935869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.937869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.939869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.943869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.945869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.947869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.953869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.955869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.957869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.959869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.961869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.963869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.965869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.967869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.969869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.971869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.973869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.975869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.981869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.983869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.985869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.989869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.991869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.993869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.997869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 2.999869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.001869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.003869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.005869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.007869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.009869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.013869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.015869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.017869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.021869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.023869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.025869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.027869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.029869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.033869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.035869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.037869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.039869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.041869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.043869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.045869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.047869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.049869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.051869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.053869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.055869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.071869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.081869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.083869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.087869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.095869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.099869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.101869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.103869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.107869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.109869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.115869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.117869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.123869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.125869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.137869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.141869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.143869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.145869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.147869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.149869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.155869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.159869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.163869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.165869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.169869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.171869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.173869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.177869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.179869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.181869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.189869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.193869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.195869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.197869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.209869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.215869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.219869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.223869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.227869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.233869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.235869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.247869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.249869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.253869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.257869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.261869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.263869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.265869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.267869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.269869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.273869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.277869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.279869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.281869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.283869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.285869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.287869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.289869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.291869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.293869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.297869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.299869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.303869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.305869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.309869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.311869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.313869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.315869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.319869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.323869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.325869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.327869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.329869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.331869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.333869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.335869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.337869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.339869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.343869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.345869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.347869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.349869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.351869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.353869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.355869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.357869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.361869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.363869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.365869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.367869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.369869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.371869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.373869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.375869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.377869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.379869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.381869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.383869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.389869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.391869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.393869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.395869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.397869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.399869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.401869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.403869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.405869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.407869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.409869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.411869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.413869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.415869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.417869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.419869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.421869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.423869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.425869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.427869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.429869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.431869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.433869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.435869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.437869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.439869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.441869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.443869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.445869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.447869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.449869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.451869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.453869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.455869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.457869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.459869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.461869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.463869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.465869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.467869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.469869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.471869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.473869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.475869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.477869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.479869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.481869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.483869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.485869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.487869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.489869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.491869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.493869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.495869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.497869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.499869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.501869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.503869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.505869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.507869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.511869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.513869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.515869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.517869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.519869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.521869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.523869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.525869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.527869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.529869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.531869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.533869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.535869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.537869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.539869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.541869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.543869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.545869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.547869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.549869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.551869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.553869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.555869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.557869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.559869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.561869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.565869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.567869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.569869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.571869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.573869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.575869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.577869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.579869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.581869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.583869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.585869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.587869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.589869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.591869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.593869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.595869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.597869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.599869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.601869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.603869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.605869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.607869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.609869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.611869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.613869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.615869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.617869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.619869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.621869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.623869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.625869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.627869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.629869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.631869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.633869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.635869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.637869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.639869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.641869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.643869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.645869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.647869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.649869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.651869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.653869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.655869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.657869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.659869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.661869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.663869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.665869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.667869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.671869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.673869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.675869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.677869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.679869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.681869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.683869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 3.685869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.773869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.943869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 4.977869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.049869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.085869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.249869E+001    
+
+
+Warning! The program fails to converge after 10 iterations when determining switch positions.
+Time = 5.487869E+001    
+
+

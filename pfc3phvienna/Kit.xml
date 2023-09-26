@@ -1,0 +1,134 @@
+<MODEL>
+  <!-- Plant ID, 1: Buck , 2: PFC , 3: Inverter, 4 : Vienna Rectifier-->
+  <ID>4</ID>
+  <PLANT>
+    <!-- Power Stage Modelling Parameters-->
+    <!-- Switching Frequency -->
+    <Fsw>50000</Fsw>
+    <!-- Control Frequency -->
+    <Fctrl>50000</Fctrl>
+    <!-- Voltage/Current Model Selection -->
+    <!-- Current, 1: Voltage, 2 -->
+    <Tuning>1</Tuning>
+    <!-- Input Voltage Nominal -->
+    <Vin>208</Vin>
+    <!-- Output Voltage Nominal -->
+    <Vout>620</Vout>
+    <!-- Power Nominal -->
+    <Pout>768</Pout>
+    <!-- Max Output Voltage Sense -->
+    <Vout_SenseMax>454</Vout_SenseMax>
+    <!-- Max Inductor Current Sense -->
+    <I_SenseMax>12</I_SenseMax>
+    <!-- ILPFC output filter inductor -->
+    <Li>0.003</Li>
+    <!-- DC Resistance of the filter inductor L -->
+    <Ri>0.2</Ri>
+    <!-- Output capacitor -->
+    <Cf>0.00018</Cf>
+    <!-- ESR output capacitor -->
+    <Rcf>0.73</Rcf>
+    <!-- Output Voltage/Current Sense RC Filter Capacitance  -->
+    <Rfltr>68</Rfltr>
+    <Cfltr>1.0000000000000001e-7</Cfltr>
+    <!-- Determines if the page will be locked or not -->
+    <ProjectNonModifiable>1</ProjectNonModifiable>
+  </PLANT>
+  <COMP>
+    <COMP1>
+      <!-- Specify whether P or LeadLag is used for current loop tuning -->
+      <!--  8 for Lead Lag -->
+      <!--  9 for proportional gain -->
+      <TUNING>9</TUNING>
+      <!-- Lead Lag Coefficients-->
+      <A0>1</A0>
+      <A1>0</A1>
+      <A2>0</A2>
+      <A3>0</A3>
+      <B0>2</B0>
+      <B1>0</B1>
+      <B2>0</B2>
+      <B3>0</B3>
+      <!-- Pole Zero Location-->
+      <z0>31831</z0>
+      <Qz0>4.68705446301803</Qz0>
+      <z1>13418</z1>
+      <z2>1000000</z2>
+      <p0>0</p0>
+      <p1>31831</p1>
+      <Qp1>1</Qp1>
+      <p2>20000000000000</p2>
+      <gain>60730.2403614083</gain>
+      <!-- P-->
+      <Kp>2</Kp>
+      <Ti>0.00018896447</Ti>
+      <Td>0</Td>
+    </COMP1>
+    <COMP2>
+      <!-- Specify whether PID or 2p2z is used for tuning -->
+      <!--  1 for PID, 2 for 2p2z -->
+      <TUNING>1</TUNING>
+      <!-- 2p2z Coefficients-->
+      <A0>1</A0>
+      <A1>1</A1>
+      <A2>0</A2>
+      <A3>0</A3>
+      <B0>0.40004</B0>
+      <B1>-0.39996</B1>
+      <B2>0</B2>
+      <B3>0</B3>
+      <!-- Pole Zero Location-->
+      <z0>31831</z0>
+      <Qz0>4.68705446301803</Qz0>
+      <z1>13418</z1>
+      <z2>1000000</z2>
+      <p0>0</p0>
+      <p1>31831</p1>
+      <Qp1>1</Qp1>
+      <p2>20000000000000</p2>
+      <gain>60730.2403614083</gain>
+      <!-- PID-->
+      <Kp>0.4</Kp>
+      <Ti>0.1</Ti>
+      <Td>0</Td>
+    </COMP2>
+    <COMP3>
+      <!-- Specify whether P or LeadLag is used for current loop tuning -->
+      <!--  8 for Lead Lag -->
+      <!--  9 for proportional gain -->
+      <TUNING>9</TUNING>
+      <!-- 3p3z Coefficients-->
+      <A0>1</A0>
+      <A1>0</A1>
+      <A2>0</A2>
+      <A3>0</A3>
+      <B0>1</B0>
+      <B1>0</B1>
+      <B2>0</B2>
+      <B3>0</B3>
+      <!-- Pole Zero Location-->
+      <z0>31831</z0>
+      <Qz0>4.68705446301803</Qz0>
+      <z1>13418</z1>
+      <z2>1000000</z2>
+      <p0>0</p0>
+      <p1>31831</p1>
+      <Qp1>1</Qp1>
+      <p2>20000000000000</p2>
+      <gain>91095.0964494984</gain>
+      <!-- PID-->
+      <Kp>1</Kp>
+      <Ti>1E-06</Ti>
+      <Td>0</Td>
+    </COMP3>
+  </COMP>
+  <COMP_OPTIONS>
+    <!-- Compensation Design Parameters-->
+    <COMP_NUM>1</COMP_NUM>
+    <!--  Specify Model 0 for mathematical 1 for SFRA Based -->
+    <MODEL_STYLE>0</MODEL_STYLE>
+    <SFRAPATH>C:/Git/development/development_kits/tidm_1000/version/f2837x/pfc3phvienna/SFRAData/SFRAData.csv</SFRAPATH>
+    <COMP_ABS_LIMIT>256</COMP_ABS_LIMIT>
+    <COMP_STYLE>9</COMP_STYLE>
+  </COMP_OPTIONS>
+</MODEL>
