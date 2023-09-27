@@ -17,11 +17,12 @@
 #define KI_PFC_VL  0.01f
 #define KP_PFC_IL  80.0f
 #define KI_PFC_IL  0.002f
-#define VBUSref    390.0f
-#define LOOP1_MAX   5.0f
-#define LOOP1_MIN   0.0f
-#define D_PFC_MAX   0.95f
-#define D_PFC_MIN   0.0f
+#define VPFCref    390.0f
+#define divVPFCref 0.002564102f // ----- 1 / VPFCref
+#define U_VL_MAX   5.0f
+#define U_VL_MIN   0.0f
+#define D_IL_MAX   0.45f
+#define D_IL_MIN   0.0f
 
 #define KP_BAT     5.0f
 #define KI_BAT     0.01f
@@ -33,16 +34,16 @@
 #define VoffsetVAC  1.05f
 #define VoffsetBAT  (1.5059 + 0.02)
 #define VoffsetPFC  (1.5 + 0.01)
-#define IoffsetBAT  2.2270f
-#define IoffsetIL   2.2333f
-#define IoffsetBAT  2.2270f
-#define IoffsetIL   2.2333f
+
+#define IBAToffset  2.2270f
+#define ILoffset    2.2333f
+
 
 #define VACgain     (8*1200.0/(1200.0 + 2000000.0))
 #define VPFCgain    0.0026f
 #define VBATgain    0.0281f
-#define ILgain      0.17909f
-#define IBATgain    0.17788f
+#define ILgain      10.0f
+#define IBATgain    10.0f
 
 #define LED_BLUE    58      // Xanh
 #define LED_YELLOW  59      // Vang
@@ -51,7 +52,8 @@
 #define BUTTON_TOP  66
 #define BUTTON_BOT  131
 
-volatile unsigned long LED_STT = 0;
+volatile unsigned int CTR_STT = 0;
+volatile unsigned int PRE_CTR_STT = 0;
 
 
 #define     VAC_READ1   AdcaResultRegs.ADCRESULT0
@@ -74,23 +76,37 @@ volatile unsigned long LED_STT = 0;
 #define     IBAT_READ2  AdccResultRegs.ADCRESULT2
 #define     IBAT_READ3  AdccResultRegs.ADCRESULT4
 
-typedef struct PI_VAR{
-    float ERROR;
-    float INTEGRAL;
-    float KP;
-    float KI;
-    float DMAX;
-    float DMIN;
-    float OUT;
-} PI_VAR;
+//typedef struct PI_VAR{
+//    float ERROR;
+//    float INTEGRAL;
+//    float KP;
+//    float KI;
+//    float DMAX;
+//    float DMIN;
+//    float OUT;
+//} PI_VAR;
 
 //volatile PI_VAR PFC;
 //volatile PI_VAR BAT;
-volatile PI_VAR PFC1;
-volatile PI_VAR PFC2;
+//volatile PI_VAR PFC1;
+//volatile PI_VAR PFC2;
+
+
+//    PFC1.KP = KP_PFC_VL;
+//    PFC1.KI = KI_PFC_VL;
+//    PFC1.DMAX = LOOP1_MAX;
+//    PFC1.DMIN = LOOP1_MIN;
+//
+//    PFC2.KP = KP_PFC_IL;
+//    PFC2.KI = KI_PFC_IL;
+//    PFC2.DMAX = D_PFC_MAX;
+//    PFC2.DMIN = D_PFC_MIN;
 
 // ------------- PI DCL.h ------------
 PI BATTERY = {KP_BAT, KI_BAT, 0.0f, D_BAT_MAX, D_BAT_MIN, 1.0f};
+PI PFC1 = {KP_PFC_VL, KI_PFC_VL, 0.0f, U_VL_MAX, U_VL_MIN, 1.0f};
+PI PFC2 = {KP_PFC_IL, KI_PFC_IL, 0.0f, D_IL_MAX, D_IL_MIN, 1.0f};
+
 
 volatile float  ILmeas, IBATmeas, VACmeas, VPFCmeas, VBATmeas;
 volatile float  VACpeak = 0, VACrms = 0, sumVAC = 0, VAC = 0;
@@ -101,6 +117,8 @@ volatile float  IL = 0, ILavg = 0, sumIL = 0;
 volatile int    count = 0;
 
 volatile float BAT_OUT = 0.0f;
+volatile float PFC1_OUT = 0.0f;
+volatile float PFC2_OUT = 0.0f;
 
 void setup_gpio(void);
 void InitEPwm1(void);
@@ -400,20 +418,21 @@ void setup_DAC(void){
 }
 
 
-//void CalibBAT(void){
-//    if (VBATavg <= 2.356)
-//        VBAT = (VBATavg - VoffsetBAT + 0.0119) /VBATgain;
-//    else if (VBATavg <= 2.9)
-//        VBAT = (VBATavg - VoffsetBAT + 0.0059) /VBATgain;
-//    else if (VBATavg <= 2.438)
-//        VBAT = (VBATavg - VoffsetBAT)          /VBATgain;
-//    else if (VBATavg <= 2.608)
-//        VBAT = (VBATavg - VoffsetBAT - 0.0041) /VBATgain;
-//    else if (VBATavg <= 2.646)
-//        VBAT = (VBATavg - VoffsetBAT)          /VBATgain;
-//    else
-//        VBAT = (VBATavg - VoffsetBAT + 0.0039) /VBATgain;
-//}
+void CalibBAT(void){
+    if (VBATavg <= 2.356)
+        VBAT = (VBATavg - VoffsetBAT + 0.0119) /VBATgain;
+    else if (VBATavg <= 2.9)
+        VBAT = (VBATavg - VoffsetBAT + 0.0059) /VBATgain;
+    else if (VBATavg <= 2.438)
+        VBAT = (VBATavg - VoffsetBAT)          /VBATgain;
+    else if (VBATavg <= 2.608)
+        VBAT = (VBATavg - VoffsetBAT - 0.0041) /VBATgain;
+    else if (VBATavg <= 2.646)
+        VBAT = (VBATavg - VoffsetBAT)          /VBATgain;
+    else
+        VBAT = (VBATavg - VoffsetBAT + 0.0039) /VBATgain;
+}
+
 //
 //void CalibVAC(void)
 //{

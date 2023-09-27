@@ -53,17 +53,17 @@ void main(void)
     ClkCfgRegs.PERCLKDIVSEL.bit.EPWMCLKDIV = 0;
     EDIS;
 
-    GPIO_WritePin(LED_BLUE, 0);
-    GPIO_WritePin(LED_RED, 1);
-    GPIO_WritePin(LED_YELLOW, 0);
-
     while(1){
-        GPIO_WritePin(LED_YELLOW, LED_STT);
-        GPIO_WritePin(LED_BLUE, !LED_STT);
         if (GPIO_ReadPin(BUTTON_TOP) == 0)
-            LED_STT = 1;
+            CTR_STT = 1;
         if (GPIO_ReadPin(BUTTON_BOT) == 0)
-            LED_STT = 0;
+            CTR_STT = 2;
+        if (CTR_STT == 0)
+            BLUE_LIGHT();
+        else if (CTR_STT == 1)
+            RED_LIGHT();
+        else if (CTR_STT == 2)
+            YELLOW_LIGHT();
     }
 }
 
@@ -71,62 +71,54 @@ void main(void)
 // -------------------------------------------------------- ePWM interrupt -----------------------------------------------------------
 __interrupt void epwm1_isr(void)
 {
-//    readSensor();
-//    peakDETECT();
-//    CalibBAT();
+    EPwm1Regs.ETCLR.bit.INT = 1;                // Clear INT flag for this timer
+    PieCtrlRegs.PIEACK.all = PIEACK_GROUP3;     // Acknowledge this interrupt to receive more interrupts from group 3
+
+    readSensor();
+    peakDETECT();
+    CalibBAT();
 //    CalibPFC();
-//    IBAT = (IBATavg - IoffsetBAT) / IBATgain;
-//
-//    EPwm1Regs.ETCLR.bit.INT = 1;                // Clear INT flag for this timer
-//    PieCtrlRegs.PIEACK.all = PIEACK_GROUP3;     // Acknowledge this interrupt to receive more interrupts from group 3
-//
+
+
 //    PFC_Control();
 //    BAT_Control();
-
-//    EPwm2Regs.CMPA.bit.CMPA = D_PFC;
-//    EPwm1Regs.CMPA.bit.CMPA = D_BAT;
-//    EPwm1Regs.CMPB.bit.CMPB = D_BAT;
-
-//    GPIO_WritePin(LED_YELLOW, 1);
-//    GPIO_WritePin(LED_BLUE, 1);
-//    GPIO_WritePin(LED_RED, 1);
 }
 
 void PFC_Control(void){
-    IL = (ILmeas - IoffsetIL)/ILgain;
+    IL = (ILmeas - ILoffset) * ILgain;
 
-    PFC1.ERROR = 1 - VPFC/VBUSref;
-    PFC1.INTEGRAL = PFC1.INTEGRAL + PFC1.KI*PFC1.ERROR*Ts;
-    PFC1.OUT = PFC1.KP*PFC1.ERROR + PFC1.INTEGRAL;
-    PFC1.OUT = (PFC1.OUT < PFC1.DMIN) ? PFC1.DMIN:PFC1.OUT;
-    PFC1.OUT = (PFC1.OUT > PFC1.DMAX) ? PFC1.DMAX:PFC1.OUT;
+//    PFC1.ERROR = 1 - VPFC/VBUSref;
+//    PFC1.INTEGRAL = PFC1.INTEGRAL + PFC1.KI*PFC1.ERROR*Ts;
+//    PFC1.OUT = PFC1.KP*PFC1.ERROR + PFC1.INTEGRAL;
+//    PFC1.OUT = (PFC1.OUT < PFC1.DMIN) ? PFC1.DMIN:PFC1.OUT;
+//    PFC1.OUT = (PFC1.OUT > PFC1.DMAX) ? PFC1.DMAX:PFC1.OUT;
+//
+//    PFC2.ERROR = VAC/VACpeak * PFC1.OUT - IL;
+//    PFC2.INTEGRAL = PFC2.INTEGRAL + PFC2.KI*PFC2.ERROR*Ts;
+//    PFC2.OUT = PFC2.KP*PFC2.ERROR + PFC2.INTEGRAL;
+//    PFC2.OUT = (PFC2.OUT < PFC2.DMIN) ? PFC2.DMIN:PFC2.OUT;
+//    PFC2.OUT = (PFC2.OUT > PFC2.DMAX) ? PFC2.DMAX:PFC2.OUT;
 
-    PFC2.ERROR = VAC/VACpeak * PFC1.OUT;
-    PFC2.INTEGRAL = PFC2.INTEGRAL + PFC2.KI*PFC2.ERROR*Ts;
-    PFC2.OUT = PFC2.KP*PFC2.ERROR + PFC2.INTEGRAL;
-    PFC2.OUT = (PFC2.OUT < PFC2.DMIN) ? PFC2.DMIN:PFC2.OUT;
-    PFC2.OUT = (PFC2.OUT > PFC2.DMAX) ? PFC2.DMAX:PFC2.OUT;
+    PFC1_OUT = DCL_runPIc(&PFC1, 1.0f, VPFC * divVPFCref);
+    float ILref = VAC/VACpeak * PFC1_OUT;
+    PFC2_OUT = DCL_runPIc(&PFC2, ILref, IL);
 
-    EPwm2Regs.CMPA.bit.CMPA = PFC2.OUT * 1000;
-    EPwm2Regs.CMPB.bit.CMPB = PFC2.OUT * 1000;
+    EPwm2Regs.CMPA.bit.CMPA = PFC2_OUT * 1000;
+//    EPwm2Regs.CMPB.bit.CMPB = PFC2.OUT * 1000;
 }
 
 void BAT_Control(void){
-    IBAT = (IBATavg - IoffsetBAT) / IBATgain;
-    if (VBAT < 42.0){
-        if (VBAT < 30.0)
-            isFULL();
+// IBAT = (IBATavg - IBAToffset) * IBATgain;
+    if (CTR_STT == 0)
+        isFULL();
+    else if (CTR_STT == 1)
         BAT_CC();
-    }
-    else {
+    else if (CTR_STT == 2)
         BAT_CV();
-    }
 }
 
 void BAT_CC(void){
-    RED_LIGHT();
-
-//    DBAT = PI_CONTROL(IBAT, IBATref, KP_BAT, KI_BAT, D_BAT_MAX, D_BAT_MIN);
+    IBAT = (IBATavg - IBAToffset) * IBATgain;
 
 //    BAT.ERROR = IBATref - IBAT;
 //    BAT.INTEGRAL = BAT.INTEGRAL + BAT.KI*BAT.ERROR*Ts;
@@ -145,8 +137,6 @@ void BAT_CC(void){
 }
 
 void BAT_CV(void){
-    YELLOW_LIGHT();
-
 //    BAT.ERROR = VBATref - VBAT;
 //    BAT.INTEGRAL = BAT.INTEGRAL + BAT.KI*BAT.ERROR*Ts;
 //    BAT.OUT = BAT.KP*BAT.ERROR + BAT.INTEGRAL;
@@ -181,21 +171,21 @@ void peakDETECT(void)
         VACrms = sqrt(sumVAC/1000.0);
         VACpeak = VACrms * SQRT2;
         IBATavg = sumIBAT/1000.0;
-//        ILavg = sumIL/1000.0;
+
 
         count = 0;
         sumVAC = 0;
         sumVBAT = 0;
         sumVPFC = 0;
         sumIBAT = 0;
-//        sumIL = 0;
+
     }
     count++;
     sumVPFC += VPFCmeas;
     sumVBAT += VBATmeas;
     sumVAC += VAC*VAC;
     sumIBAT += IBATmeas;
-//    sumIL += ILmeas;
+
 }
 
 
