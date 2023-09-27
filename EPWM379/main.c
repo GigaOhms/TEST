@@ -72,6 +72,9 @@ void main(void)
             YELLOW_LIGHT();
         PRE_CTR_STT = CTR_STT;
 
+
+        readSensor();
+    //    peakDETECT();
         VBATavg = MovingAVG_Update(&mVBATavg, VBATmeas);
         IBATavg = MovingAVG_Update(&mIBATavg, IBATmeas);
 //        VPFCavg = MovingAVG_Update(&mVPFCavg, VPFCmeas);
@@ -87,10 +90,6 @@ __interrupt void epwm1_isr(void)
 {
     EPwm1Regs.ETCLR.bit.INT = 1;                // Clear INT flag for this timer
     PieCtrlRegs.PIEACK.all = PIEACK_GROUP3;     // Acknowledge this interrupt to receive more interrupts from group 3
-
-    readSensor();
-//    peakDETECT();
-
 
 //    PFC_Control();
 //    BAT_Control();
