@@ -40,8 +40,8 @@
 
 
 #define VACgain     (8*1200.0/(1200.0 + 2000000.0))
-#define VPFCgain    0.0026f
-#define VBATgain    0.0281f
+#define VPFCgain    384.6153846f
+#define VBATgain    35.58718861f
 #define ILgain      10.0f
 #define IBATgain    10.0f
 
@@ -101,6 +101,13 @@ volatile unsigned int PRE_CTR_STT = 0;
 //    PFC2.KI = KI_PFC_IL;
 //    PFC2.DMAX = D_PFC_MAX;
 //    PFC2.DMIN = D_PFC_MIN;
+
+
+// ------------- MovingAVG var  ------
+MovingAVG mVBATavg;
+MovingAVG mIBATavg;
+//MovingAVG mVPFCavg;
+
 
 // ------------- PI DCL.h ------------
 PI BATTERY = {KP_BAT, KI_BAT, 0.0f, D_BAT_MAX, D_BAT_MIN, 1.0f};
@@ -420,17 +427,17 @@ void setup_DAC(void){
 
 void CalibBAT(void){
     if (VBATavg <= 2.356)
-        VBAT = (VBATavg - VoffsetBAT + 0.0119) /VBATgain;
-    else if (VBATavg <= 2.9)
-        VBAT = (VBATavg - VoffsetBAT + 0.0059) /VBATgain;
+        VBAT = (VBATavg - VoffsetBAT + 0.0119) * VBATgain;
+    else if (VBATavg <= 2.391)
+        VBAT = (VBATavg - VoffsetBAT + 0.0059) * VBATgain;
     else if (VBATavg <= 2.438)
-        VBAT = (VBATavg - VoffsetBAT)          /VBATgain;
+        VBAT = (VBATavg - VoffsetBAT)          * VBATgain;
     else if (VBATavg <= 2.608)
-        VBAT = (VBATavg - VoffsetBAT - 0.0041) /VBATgain;
+        VBAT = (VBATavg - VoffsetBAT - 0.0041) * VBATgain;
     else if (VBATavg <= 2.646)
-        VBAT = (VBATavg - VoffsetBAT)          /VBATgain;
+        VBAT = (VBATavg - VoffsetBAT)          * VBATgain;
     else
-        VBAT = (VBATavg - VoffsetBAT + 0.0039) /VBATgain;
+        VBAT = (VBATavg - VoffsetBAT + 0.0039) * VBATgain;
 }
 
 //
@@ -469,22 +476,23 @@ void CalibBAT(void){
 //    else
 //        VAC = (VACmeas - VoffsetVAC) * 222.972973;
 //}
-//
-//void CalibPFC(void)
-//{
-//    if (VPFCavg <= 2.293)
-//        VPFC = (VPFCavg - VoffsetPFC + 0.005) /VPFCgain;
-//    else if (VPFC <= 2.323)
-//        VPFC = (VPFCavg - VoffsetPFC)         /VPFCgain;
-//    else if (VPFCavg <= 2.381)
-//        VPFC = (VPFCavg - VoffsetPFC - 0.005) /VPFCgain;
-//    else if (VPFCavg <= 2.461)
-//        VPFC = (VPFCavg - VoffsetPFC - 0.01)  /VPFCgain;
-//    else if (VPFCavg <= 2.534)
-//        VPFC = (VPFCavg - VoffsetPFC - 0.007) /VPFCgain;
-//    else if (VPFCavg <= 2.568)
-//        VPFC = (VPFCavg - VoffsetPFC)         /VPFCgain;
-//    else
-//        VPFC = (VPFCavg - VoffsetPFC + 0.004) /VPFCgain;
-//}
+
+
+void CalibPFC(void)
+{
+    if (VPFCavg <= 2.293)
+        VPFC = (VPFCavg - VoffsetPFC + 0.005) * VPFCgain;
+    else if (VPFC <= 2.323)
+        VPFC = (VPFCavg - VoffsetPFC)         * VPFCgain;
+    else if (VPFCavg <= 2.381)
+        VPFC = (VPFCavg - VoffsetPFC - 0.005) * VPFCgain;
+    else if (VPFCavg <= 2.461)
+        VPFC = (VPFCavg - VoffsetPFC - 0.01)  * VPFCgain;
+    else if (VPFCavg <= 2.534)
+        VPFC = (VPFCavg - VoffsetPFC - 0.007) * VPFCgain;
+    else if (VPFCavg <= 2.568)
+        VPFC = (VPFCavg - VoffsetPFC)         * VPFCgain;
+    else
+        VPFC = (VPFCavg - VoffsetPFC + 0.004) * VPFCgain;
+}
 

@@ -1,5 +1,7 @@
 #include "F28x_Project.h"
 #include <math.h>
+#include <stdint.h>
+#include "RANDOM\MovingAVG.h"
 #include "RANDOM\header.h"
 
 
@@ -18,7 +20,6 @@ void main(void)
 //    setup_DAC();
     setup_gpio();
     setupLEDGPIO();
-//    setupVAR();
     // End call----------------------------------------------------------------------------------------------------------------
     EALLOW;
     CpuSysRegs.PCLKCR0.bit.TBCLKSYNC = 1;
@@ -53,17 +54,30 @@ void main(void)
     ClkCfgRegs.PERCLKDIVSEL.bit.EPWMCLKDIV = 0;
     EDIS;
 
+    MovingAVG_Init(&mVBATavg, 1000);
+    MovingAVG_Init(&mIBATavg, 1000);
+//    MovingAVG_Init(&mVPFCavg, 1000);
+
     while(1){
         if (GPIO_ReadPin(BUTTON_TOP) == 0)
             CTR_STT = 1;
         if (GPIO_ReadPin(BUTTON_BOT) == 0)
             CTR_STT = 2;
+
         if (CTR_STT == 0)
             BLUE_LIGHT();
-        else if (CTR_STT == 1)
+        else if (CTR_STT == 1 && PRE_CTR_STT != CTR_STT)
             RED_LIGHT();
-        else if (CTR_STT == 2)
+        else if (CTR_STT == 2 && PRE_CTR_STT != CTR_STT)
             YELLOW_LIGHT();
+        PRE_CTR_STT = CTR_STT;
+
+        VBATavg = MovingAVG_Update(&mVBATavg, VBATmeas);
+        IBATavg = MovingAVG_Update(&mIBATavg, IBATmeas);
+//        VPFCavg = MovingAVG_Update(&mVPFCavg, VPFCmeas);
+
+        CalibBAT();
+//        CalibPFC();
     }
 }
 
@@ -75,9 +89,7 @@ __interrupt void epwm1_isr(void)
     PieCtrlRegs.PIEACK.all = PIEACK_GROUP3;     // Acknowledge this interrupt to receive more interrupts from group 3
 
     readSensor();
-    peakDETECT();
-    CalibBAT();
-//    CalibPFC();
+//    peakDETECT();
 
 
 //    PFC_Control();
@@ -154,8 +166,6 @@ void BAT_CV(void){
 }
 
 void isFULL(void){
-    BLUE_LIGHT();
-
     EPwm2Regs.CMPA.bit.CMPA = 0;
     EPwm2Regs.CMPB.bit.CMPB = 0;
     EPwm1Regs.CMPA.bit.CMPA = 0;
@@ -166,26 +176,15 @@ void peakDETECT(void)
 {
 //    CalibVAC(); // ----------------------------------------------- OPEN COMMENT
     if (count > 1000){
-        VPFCavg = sumVPFC/1000.0;
-        VBATavg = sumVBAT/1000.0;
         VACrms = sqrt(sumVAC/1000.0);
         VACpeak = VACrms * SQRT2;
-        IBATavg = sumIBAT/1000.0;
-
 
         count = 0;
         sumVAC = 0;
-        sumVBAT = 0;
-        sumVPFC = 0;
-        sumIBAT = 0;
 
     }
     count++;
-    sumVPFC += VPFCmeas;
-    sumVBAT += VBATmeas;
     sumVAC += VAC*VAC;
-    sumIBAT += IBATmeas;
-
 }
 
 
