@@ -68,7 +68,9 @@ main.obj: C:/ti/controlSUITE/device_support/F2837xD/v210/F2837xD_common/include/
 main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/math.h
 main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/_defs.h
 main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/machine/_limits.h
+main.obj: C:/Users/Serena/Desktop/test/EPWM379/RANDOM/MovingAVG.h
 main.obj: C:/Users/Serena/Desktop/test/EPWM379/RANDOM/header.h
+main.obj: C:/Users/Serena/Desktop/test/EPWM379/RANDOM/DCL.h
 
 C:/Users/Serena/Desktop/test/EPWM379/main.c:
 
@@ -206,5 +208,9 @@ C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/_defs.h:
 
 C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/machine/_limits.h:
 
+C:/Users/Serena/Desktop/test/EPWM379/RANDOM/MovingAVG.h:
+
 C:/Users/Serena/Desktop/test/EPWM379/RANDOM/header.h:
+
+C:/Users/Serena/Desktop/test/EPWM379/RANDOM/DCL.h:
 

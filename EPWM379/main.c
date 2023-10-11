@@ -56,7 +56,8 @@ void main(void)
 
     MovingAVG_Init(&mVBATavg, 1000);
     MovingAVG_Init(&mIBATavg, 1000);
-//    MovingAVG_Init(&mVPFCavg, 1000);
+//    MovingAVG_Init(&mILavg, 1000);
+    MovingAVG_Init(&mVPFCavg, 1000);
 
     while(1){
         if (GPIO_ReadPin(BUTTON_TOP) == 0)
@@ -77,10 +78,15 @@ void main(void)
     //    peakDETECT();
         VBATavg = MovingAVG_Update(&mVBATavg, VBATmeas);
         IBATavg = MovingAVG_Update(&mIBATavg, IBATmeas);
+        VPFCavg = MovingAVG_Update(&mVPFCavg, VBATmeas);
+//        ILavg = MovingAVG_Update(&mILavg, ILmeas);
 //        VPFCavg = MovingAVG_Update(&mVPFCavg, VPFCmeas);
+        if (IBATavg >= 2.45)
+            IBAT = (IBATavg - IBAToffset) * IBATgain20;
+        else IBAT = (IBATavg - IBAToffset) * IBATgain;
 
         CalibBAT();
-//        CalibPFC();
+        CalibPFC();
     }
 }
 

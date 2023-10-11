@@ -35,15 +35,16 @@
 #define VoffsetBAT  (1.5059 + 0.02)
 #define VoffsetPFC  (1.5 + 0.01)
 
-#define IBAToffset  2.2270f
-#define ILoffset    2.2333f
+#define IBAToffset  2.335f
+#define ILoffset    2.285f
 
 
 #define VACgain     (8*1200.0/(1200.0 + 2000000.0))
 #define VPFCgain    384.6153846f
 #define VBATgain    35.58718861f
-#define ILgain      10.0f
-#define IBATgain    10.0f
+#define ILgain      16.0f
+#define IBATgain    15.66f
+#define IBATgain20  16.67f
 
 #define LED_BLUE    58      // Xanh
 #define LED_YELLOW  59      // Vang
@@ -103,11 +104,6 @@ volatile unsigned int PRE_CTR_STT = 0;
 //    PFC2.DMIN = D_PFC_MIN;
 
 
-// ------------- MovingAVG var  ------
-MovingAVG mVBATavg;
-MovingAVG mIBATavg;
-//MovingAVG mVPFCavg;
-
 
 // ------------- PI DCL.h ------------
 PI BATTERY = {KP_BAT, KI_BAT, 0.0f, D_BAT_MAX, D_BAT_MIN, 1.0f};
@@ -126,6 +122,13 @@ volatile int    count = 0;
 volatile float BAT_OUT = 0.0f;
 volatile float PFC1_OUT = 0.0f;
 volatile float PFC2_OUT = 0.0f;
+
+// ------------- MovingAVG var  ------
+MovingAVG mVBATavg;
+MovingAVG mVPFCavg;
+MovingAVG mIBATavg;
+//MovingAVG mILavg;
+//MovingAVG mVPFCavg;
 
 void setup_gpio(void);
 void InitEPwm1(void);
