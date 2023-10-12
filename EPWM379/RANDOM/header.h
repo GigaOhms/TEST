@@ -41,7 +41,7 @@
 
 #define VACgain     (8*1200.0/(1200.0 + 2000000.0))
 #define VPFCgain    384.6153846f
-#define VBATgain    35.58718861f
+#define VBATgain    35.71f
 #define ILgain      16.0f
 #define IBATgain    15.66f
 #define IBATgain20  16.67f
