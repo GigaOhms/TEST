@@ -17,7 +17,7 @@ void main(void)
     InitEPwm1();
     InitEPwm2();
     setup_ADC();
-//    setup_DAC();
+    setup_DAC();
     setup_gpio();
     setupLEDGPIO();
     // End call----------------------------------------------------------------------------------------------------------------
@@ -54,7 +54,7 @@ void main(void)
     ClkCfgRegs.PERCLKDIVSEL.bit.EPWMCLKDIV = 0;
     EDIS;
 
-    MovingAVG_Init(&mVBATavg, 1000);
+    MovingAVG_Init(&mVBATavg, 200);
     MovingAVG_Init(&mIBATavg, 1000);
 //    MovingAVG_Init(&mILavg, 1000);
     MovingAVG_Init(&mVPFCavg, 1000);
@@ -74,9 +74,10 @@ void main(void)
         PRE_CTR_STT = CTR_STT;
 
 
-        readSensor();
+//        readSensor();
     //    peakDETECT();
-        VBATavg = MovingAVG_Update(&mVBATavg, VBATmeas);
+
+
         IBATavg = MovingAVG_Update(&mIBATavg, IBATmeas);
         VPFCavg = MovingAVG_Update(&mVPFCavg, VBATmeas);
 //        ILavg = MovingAVG_Update(&mILavg, ILmeas);
@@ -85,8 +86,9 @@ void main(void)
             IBAT = (IBATavg - IBAToffset) * IBATgain20;
         else IBAT = (IBATavg - IBAToffset) * IBATgain;
 
-        CalibBAT();
+//        CalibBAT();
         CalibPFC();
+
     }
 }
 
@@ -99,6 +101,11 @@ __interrupt void epwm1_isr(void)
 
 //    PFC_Control();
 //    BAT_Control();
+    readSensor();
+    CalibBAT();
+    VBATavg = MovingAVG_Update(&mVBATavg, VBAT);
+
+    BAT_CV();
 }
 
 void PFC_Control(void){
@@ -148,7 +155,9 @@ void BAT_CC(void){
 //    EPwm1Regs.CMPB.bit.CMPB = BAT.OUT * 1000;
 
     // ------------- NEW CODE ---------------
-    BAT_OUT = 1000 * DCL_runPIc(&BATTERY, IBATref, IBAT);
+//    BAT_OUT = 1000 * DCL_runPIc(&BATTERY, IBATref, IBAT);
+    BAT_OUT = 1000 * DCL_runPI(&BATTERY, IBATref, IBAT);
+    DacaRegs.DACVALS.all = BAT_OUT * 4095.0 / 3000.0;
     EPwm1Regs.CMPA.bit.CMPA = BAT_OUT;
     EPwm1Regs.CMPB.bit.CMPB = BAT_OUT;
 }
@@ -165,7 +174,10 @@ void BAT_CV(void){
 //    EPwm1Regs.CMPB.bit.CMPB = BAT.OUT * 1000;
 
     // ------------- NEW CODE ---------------
-    BAT_OUT = 1000 * DCL_runPIc(&BATTERY, VBATref, VBAT);
+
+//    BAT_OUT = 1000 * DCL_runPIc(&BATTERY, VBATref, VBAT);
+    BAT_OUT = 1000 * DCL_runPI(&BATTERY, VBATref, VBATavg);
+    DacaRegs.DACVALS.all = BAT_OUT * 4095.0 / 3000.0;
     EPwm1Regs.CMPA.bit.CMPA = BAT_OUT;
     EPwm1Regs.CMPB.bit.CMPB = BAT_OUT;
 }

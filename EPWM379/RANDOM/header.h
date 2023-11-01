@@ -24,12 +24,12 @@
 #define D_IL_MAX   0.45f
 #define D_IL_MIN   0.0f
 
-#define KP_BAT     5.0f
-#define KI_BAT     0.01f
+#define KP_BAT     0.01f
+#define KI_BAT     0.001f
 #define VBATref    42.0f
 #define IBATref    3.3f
-#define D_BAT_MAX   0.45f
-#define D_BAT_MIN   0.10f
+#define D_BAT_MAX   0.47f
+#define D_BAT_MIN   0.20f
 
 #define VoffsetVAC  1.05f
 #define VoffsetBAT  (1.5059 + 0.02)
@@ -55,7 +55,6 @@
 
 volatile unsigned int CTR_STT = 0;
 volatile unsigned int PRE_CTR_STT = 0;
-
 
 #define     VAC_READ1   AdcaResultRegs.ADCRESULT0
 #define     VAC_READ2   AdcaResultRegs.ADCRESULT2
@@ -119,7 +118,7 @@ volatile float  IBAT = 0, IBATavg = 0, sumIBAT = 0;
 volatile float  IL = 0, ILavg = 0, sumIL = 0;
 volatile int    count = 0;
 
-volatile float BAT_OUT = 0.0f;
+volatile float BAT_OUT = 0.440f;
 volatile float PFC1_OUT = 0.0f;
 volatile float PFC2_OUT = 0.0f;
 
@@ -430,17 +429,19 @@ void setup_DAC(void){
 
 void CalibBAT(void){
     if (VBATavg <= 2.356)
-        VBAT = (VBATavg - VoffsetBAT + 0.0119) * VBATgain;
+        VBAT = (VBATmeas - VoffsetBAT + 0.0119) * VBATgain;
     else if (VBATavg <= 2.391)
-        VBAT = (VBATavg - VoffsetBAT + 0.0059) * VBATgain;
+        VBAT = (VBATmeas - VoffsetBAT + 0.0059) * VBATgain;
     else if (VBATavg <= 2.438)
-        VBAT = (VBATavg - VoffsetBAT)          * VBATgain;
+        VBAT = (VBATmeas - VoffsetBAT)          * VBATgain;
     else if (VBATavg <= 2.608)
-        VBAT = (VBATavg - VoffsetBAT - 0.0041) * VBATgain;
+        VBAT = (VBATmeas - VoffsetBAT - 0.0041) * VBATgain;
     else if (VBATavg <= 2.646)
-        VBAT = (VBATavg - VoffsetBAT)          * VBATgain;
+        VBAT = (VBATmeas - VoffsetBAT)          * VBATgain;
+    else if (VBATavg <= 2.68)
+        VBAT = (VBATmeas - VoffsetBAT + 0.0039) * VBATgain;
     else
-        VBAT = (VBATavg - VoffsetBAT + 0.0039) * VBATgain;
+        VBAT = (VBATmeas - VoffsetBAT + 0.021) * VBATgain;
 }
 
 //

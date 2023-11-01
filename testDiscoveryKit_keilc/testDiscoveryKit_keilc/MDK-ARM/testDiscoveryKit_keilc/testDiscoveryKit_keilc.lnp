@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp
+"testdiscoverykit_keilc\startup_stm32f407xx.o"
+"testdiscoverykit_keilc\main.o"
+"testdiscoverykit_keilc\stm32f4xx_it.o"
+"testdiscoverykit_keilc\stm32f4xx_hal_msp.o"
+"testdiscoverykit_keilc\stm32f4xx_hal_tim.o"
+"testdiscoverykit_keilc\stm32f4xx_hal_tim_ex.o"
+"testdiscoverykit_keilc\stm32f4xx_hal_rcc.o"
+"testdiscoverykit_keilc\stm32f4xx_hal_rcc_ex.o"
+"testdiscoverykit_keilc\stm32f4xx_hal_flash.o"
+"testdiscoverykit_keilc\stm32f4xx_hal_flash_ex.o"
+"testdiscoverykit_keilc\stm32f4xx_hal_flash_ramfunc.o"
+"testdiscoverykit_keilc\stm32f4xx_hal_gpio.o"
+"testdiscoverykit_keilc\stm32f4xx_hal_dma_ex.o"
+"testdiscoverykit_keilc\stm32f4xx_hal_dma.o"
+"testdiscoverykit_keilc\stm32f4xx_hal_pwr.o"
+"testdiscoverykit_keilc\stm32f4xx_hal_pwr_ex.o"
+"testdiscoverykit_keilc\stm32f4xx_hal_cortex.o"
+"testdiscoverykit_keilc\stm32f4xx_hal.o"
+"testdiscoverykit_keilc\stm32f4xx_hal_exti.o"
+"testdiscoverykit_keilc\system_stm32f4xx.o"
+--strict --scatter "testDiscoveryKit_keilc\testDiscoveryKit_keilc.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "testDiscoveryKit_keilc.map" -o testDiscoveryKit_keilc\testDiscoveryKit_keilc.axf
