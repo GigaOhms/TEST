@@ -103,6 +103,7 @@ __interrupt void epwm1_isr(void)
     IBATavg = MovingAVG_Update(&mIBATavg, IBATmeas);
     BAT_CC();
 //    BAT_CV();
+    DacaRegs.DACVALS.all = BAT_OUT * 4095.0 / 3000.0;
 }
 
 void PFC_Control(void){
@@ -137,7 +138,6 @@ void BAT_CV(void){
     // ------------- NEW CODE ---------------
     VBATavg = MovingAVG_Update(&mVBATavg, VBAT);
     BAT_OUT = 1000 * DCL_runPI(&BATTERY_CV, VBATref, VBATavg);
-    DacaRegs.DACVALS.all = BAT_OUT * 4095.0 / 3000.0;
     EPwm1Regs.CMPA.bit.CMPA = BAT_OUT;
     EPwm1Regs.CMPB.bit.CMPB = BAT_OUT;
 }
