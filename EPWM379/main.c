@@ -55,9 +55,9 @@ void main(void)
     EDIS;
 
     MovingAVG_Init(&mVBATavg, 200);
-    MovingAVG_Init(&mIBATavg, 1000);
+    MovingAVG_Init(&mIBATavg, 200);
 //    MovingAVG_Init(&mILavg, 1000);
-    MovingAVG_Init(&mVPFCavg, 1000);
+    MovingAVG_Init(&mVPFCavg, 200);
 
     while(1){
         if (GPIO_ReadPin(BUTTON_TOP) == 0)
@@ -77,8 +77,6 @@ void main(void)
 //        readSensor();
     //    peakDETECT();
 
-
-        IBATavg = MovingAVG_Update(&mIBATavg, IBATmeas);
         VPFCavg = MovingAVG_Update(&mVPFCavg, VBATmeas);
 //        ILavg = MovingAVG_Update(&mILavg, ILmeas);
 //        VPFCavg = MovingAVG_Update(&mVPFCavg, VPFCmeas);
@@ -88,7 +86,6 @@ void main(void)
 
 //        CalibBAT();
         CalibPFC();
-
     }
 }
 
@@ -103,36 +100,22 @@ __interrupt void epwm1_isr(void)
 //    BAT_Control();
     readSensor();
     CalibBAT();
-    VBATavg = MovingAVG_Update(&mVBATavg, VBAT);
-
-    BAT_CV();
+    IBATavg = MovingAVG_Update(&mIBATavg, IBATmeas);
+    BAT_CC();
+//    BAT_CV();
 }
 
 void PFC_Control(void){
     IL = (ILmeas - ILoffset) * ILgain;
 
-//    PFC1.ERROR = 1 - VPFC/VBUSref;
-//    PFC1.INTEGRAL = PFC1.INTEGRAL + PFC1.KI*PFC1.ERROR*Ts;
-//    PFC1.OUT = PFC1.KP*PFC1.ERROR + PFC1.INTEGRAL;
-//    PFC1.OUT = (PFC1.OUT < PFC1.DMIN) ? PFC1.DMIN:PFC1.OUT;
-//    PFC1.OUT = (PFC1.OUT > PFC1.DMAX) ? PFC1.DMAX:PFC1.OUT;
-//
-//    PFC2.ERROR = VAC/VACpeak * PFC1.OUT - IL;
-//    PFC2.INTEGRAL = PFC2.INTEGRAL + PFC2.KI*PFC2.ERROR*Ts;
-//    PFC2.OUT = PFC2.KP*PFC2.ERROR + PFC2.INTEGRAL;
-//    PFC2.OUT = (PFC2.OUT < PFC2.DMIN) ? PFC2.DMIN:PFC2.OUT;
-//    PFC2.OUT = (PFC2.OUT > PFC2.DMAX) ? PFC2.DMAX:PFC2.OUT;
-
-    PFC1_OUT = DCL_runPIc(&PFC1, 1.0f, VPFC * divVPFCref);
+    PFC1_OUT = DCL_runPI(&PFC1, 1.0f, VPFC * divVPFCref);
     float ILref = VAC/VACpeak * PFC1_OUT;
-    PFC2_OUT = DCL_runPIc(&PFC2, ILref, IL);
+    PFC2_OUT = DCL_runPI(&PFC2, ILref, IL);
 
     EPwm2Regs.CMPA.bit.CMPA = PFC2_OUT * 1000;
-//    EPwm2Regs.CMPB.bit.CMPB = PFC2.OUT * 1000;
 }
 
 void BAT_Control(void){
-// IBAT = (IBATavg - IBAToffset) * IBATgain;
     if (CTR_STT == 0)
         isFULL();
     else if (CTR_STT == 1)
@@ -142,20 +125,8 @@ void BAT_Control(void){
 }
 
 void BAT_CC(void){
-    IBAT = (IBATavg - IBAToffset) * IBATgain;
-
-//    BAT.ERROR = IBATref - IBAT;
-//    BAT.INTEGRAL = BAT.INTEGRAL + BAT.KI*BAT.ERROR*Ts;
-//    BAT.OUT = BAT.KP*BAT.ERROR + BAT.INTEGRAL;
-//
-//    BAT.OUT = (BAT.OUT < BAT.DMIN) ? BAT.DMIN:BAT.OUT;
-//    BAT.OUT = (BAT.OUT > BAT.DMAX) ? BAT.DMAX:BAT.OUT;
-//
-//    EPwm1Regs.CMPA.bit.CMPA = BAT.OUT * 1000;
-//    EPwm1Regs.CMPB.bit.CMPB = BAT.OUT * 1000;
-
     // ------------- NEW CODE ---------------
-//    BAT_OUT = 1000 * DCL_runPIc(&BATTERY, IBATref, IBAT);
+//    IBAT = (IBATavg - IBAToffset) * IBATgain;
     BAT_OUT = 1000 * DCL_runPI(&BATTERY, IBATref, IBAT);
     DacaRegs.DACVALS.all = BAT_OUT * 4095.0 / 3000.0;
     EPwm1Regs.CMPA.bit.CMPA = BAT_OUT;
@@ -163,19 +134,8 @@ void BAT_CC(void){
 }
 
 void BAT_CV(void){
-//    BAT.ERROR = VBATref - VBAT;
-//    BAT.INTEGRAL = BAT.INTEGRAL + BAT.KI*BAT.ERROR*Ts;
-//    BAT.OUT = BAT.KP*BAT.ERROR + BAT.INTEGRAL;
-//
-//    BAT.OUT = (BAT.OUT < BAT.DMIN) ? BAT.DMIN:BAT.OUT;
-//    BAT.OUT = (BAT.OUT > BAT.DMAX) ? BAT.DMAX:BAT.OUT;
-//
-//    EPwm1Regs.CMPA.bit.CMPA = BAT.OUT * 1000;
-//    EPwm1Regs.CMPB.bit.CMPB = BAT.OUT * 1000;
-
     // ------------- NEW CODE ---------------
-
-//    BAT_OUT = 1000 * DCL_runPIc(&BATTERY, VBATref, VBAT);
+    VBATavg = MovingAVG_Update(&mVBATavg, VBAT);
     BAT_OUT = 1000 * DCL_runPI(&BATTERY, VBATref, VBATavg);
     DacaRegs.DACVALS.all = BAT_OUT * 4095.0 / 3000.0;
     EPwm1Regs.CMPA.bit.CMPA = BAT_OUT;

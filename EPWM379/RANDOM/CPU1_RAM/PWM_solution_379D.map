@@ -1,7 +1,7 @@
 ******************************************************************************
              TMS320C2000 Linker PC v21.6.0                     
 ******************************************************************************
->> Linked Sun Oct 29 15:31:07 2023
+>> Linked Sat Nov 11 20:25:11 2023
 
 OUTPUT FILE NAME:   <PWM_solution_379D.out>
 ENTRY POINT SYMBOL: "code_start"  address: 00000000
@@ -14,7 +14,7 @@ MEMORY CONFIGURATION
 PAGE 0:
   BEGIN                 00000000   00000002  00000002  00000000  RWIX
   RAMM0                 00000122   000002de  000002c3  0000001b  RWIX
-  RAMLS0                00008000   00000800  000006d4  0000012c  RWIX
+  RAMLS0                00008000   00000800  000006bf  00000141  RWIX
   RAMLS1                00008800   00000800  0000057f  00000281  RWIX
   RAMLS2                00009000   00000800  00000000  00000800  RWIX
   RAMLS3                00009800   00000800  00000000  00000800  RWIX
@@ -214,8 +214,8 @@ GETWRITEIDX
 PUTREADIDX 
 *          0    0003f800    00000000     DSECT
 
-Cla1Prog   0    000086ac    00000028     
-                  000086ac    00000028     DCL_PI_CLA.obj (Cla1Prog:_DCL_runPIc)
+Cla1Prog   0    00008697    00000028     
+                  00008697    00000028     DCL_PI_CLA.obj (Cla1Prog:_DCL_runPIc)
 
 CpuTimer0RegsFile 
 *          1    00000c00    00000008     UNINITIALIZED
@@ -621,8 +621,8 @@ dclfuncs   0    000003ab    0000003a
                   000003a8    00000002                       : pre_init.c.obj (.text)
                   000003aa    00000001                       : startup.c.obj (.text)
 
-.text.2    0    00008000    000006ac     
-                  00008000    000006ac     main.obj (.text)
+.text.2    0    00008000    00000697     
+                  00008000    00000697     main.obj (.text)
 
 .text.3    0    00008800    0000057f     
                   00008800    0000033b     F2837xD_SysCtrl.obj (.text)
@@ -637,7 +637,7 @@ MODULE SUMMARY
        ------                           ----   ----------------   ------------------
     .\
        F2837xD_GlobalVariableDefs.obj   0      0                  8759              
-       main.obj                         1775   152                120               
+       main.obj                         1754   152                120               
        F2837xD_DefaultISR.obj           1833   0                  0                 
        F2837xD_SysCtrl.obj              827    0                  0                 
        F2837xD_Gpio.obj                 580    0                  0                 
@@ -650,7 +650,7 @@ MODULE SUMMARY
        F2837xD_usDelay.obj              4      0                  0                 
        F2837xD_CodeStartBranch.obj      2      0                  0                 
     +--+--------------------------------+------+------------------+--------------------+
-       Total:                           5273   600                8908              
+       Total:                           5252   600                8908              
                                                                                     
     C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/lib/rts2800_fpu32.lib
        boot28.asm.obj                   86     0                  0                 
@@ -667,7 +667,7 @@ MODULE SUMMARY
                                                                                     
        Stack:                           0      0                  256               
     +--+--------------------------------+------+------------------+--------------------+
-       Grand Total:                     5519   624                9174              
+       Grand Total:                     5498   624                9174              
 
 
 GLOBAL DATA SYMBOLS: SORTED BY DATA PAGE
@@ -941,9 +941,9 @@ abs   ffffffff  .text
 0     00008ad1  _AuxIntOsc2Sel                        
 0     00008adb  _AuxXtalOscSel                        
 1     0000aa14  _BATTERY                              
-0     000085e9  _BAT_CC                               
-0     00008639  _BAT_CV                               
-0     000085d6  _BAT_Control                          
+0     000085dd  _BAT_CC                               
+0     0000861a  _BAT_CV                               
+0     000085ca  _BAT_Control                          
 1     0000a9ee  _BAT_OUT                              
 0     000080ab  _BLUE_LIGHT                           
 0     0000b3f6  _CANA0_ISR                            
@@ -986,7 +986,7 @@ abs   ffffffff  .text
 0     00008a90  _CsmUnlock                            
 0     0000b01a  _DATALOG_ISR                          
 0     000003ab  _DCL_runPI                            
-0     000086ac  _DCL_runPIc                           
+0     00008697  _DCL_runPIc                           
 0     0000b30c  _DMA_CH1_ISR                          
 0     0000b319  _DMA_CH2_ISR                          
 0     0000b326  _DMA_CH3_ISR                          
@@ -1142,7 +1142,7 @@ abs   ffffffff  .text
 1     0000a9f0  _PFC1_OUT                             
 1     0000aa2c  _PFC2                                 
 1     0000a9f2  _PFC2_OUT                             
-0     0000858c  _PFC_Control                          
+0     00008580  _PFC_Control                          
 0     0000b702  _PIE_RESERVED_ISR                     
 1     0000a9c1  _PRE_CTR_STT                          
 1     00000ce0  _PieCtrlRegs                          
@@ -1257,13 +1257,13 @@ abs   ffffffff  ___text__
 1     0000a9c2  _count                                
 0     0000027a  _epwm1_isr                            
 0     000002bf  _exit                                 
-0     00008676  _isFULL                               
+0     00008661  _isFULL                               
 1     0000aa0a  _mIBATavg                             
 1     0000a9f4  _mVBATavg                             
 1     0000aa00  _mVPFCavg                             
 0     000084c7  _main                                 
 0     00000358  _memcpy                               
-0     0000867f  _peakDETECT                           
+0     0000866a  _peakDETECT                           
 0     000080b8  _setupLEDGPIO                         
 0     00008109  _setup_ADC                            
 0     000082fa  _setup_DAC                            
@@ -1323,13 +1323,13 @@ page  address   name
 0     0000830b  _CalibBAT                             
 0     000083e9  _CalibPFC                             
 0     000084c7  _main                                 
-0     0000858c  _PFC_Control                          
-0     000085d6  _BAT_Control                          
-0     000085e9  _BAT_CC                               
-0     00008639  _BAT_CV                               
-0     00008676  _isFULL                               
-0     0000867f  _peakDETECT                           
-0     000086ac  _DCL_runPIc                           
+0     00008580  _PFC_Control                          
+0     000085ca  _BAT_Control                          
+0     000085dd  _BAT_CC                               
+0     0000861a  _BAT_CV                               
+0     00008661  _isFULL                               
+0     0000866a  _peakDETECT                           
+0     00008697  _DCL_runPIc                           
 0     00008800  _InitSysCtrl                          
 0     00008831  _InitPeripheralClocks                 
 0     000088b5  _DisablePeripheralClocks              

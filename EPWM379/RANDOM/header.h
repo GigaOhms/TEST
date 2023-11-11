@@ -27,7 +27,7 @@
 #define KP_BAT     0.01f
 #define KI_BAT     0.001f
 #define VBATref    42.0f
-#define IBATref    3.3f
+#define IBATref    3.00f
 #define D_BAT_MAX   0.47f
 #define D_BAT_MIN   0.20f
 
@@ -43,7 +43,7 @@
 #define VPFCgain    384.6153846f
 #define VBATgain    35.71f
 #define ILgain      16.0f
-#define IBATgain    15.66f
+#define IBATgain    16.66f
 #define IBATgain20  16.67f
 
 #define LED_BLUE    58      // Xanh
