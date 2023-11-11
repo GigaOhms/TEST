@@ -24,10 +24,12 @@
 #define D_IL_MAX   0.45f
 #define D_IL_MIN   0.0f
 
-#define KP_BAT     0.01f
-#define KI_BAT     0.001f
+#define KP_BAT_CV     0.01f
+#define KI_BAT_CV     0.001f
+#define KP_BAT_CC     0.1f
+#define KI_BAT_CC     0.001f
 #define VBATref    42.0f
-#define IBATref    3.00f
+#define IBATref    1.00f
 #define D_BAT_MAX   0.47f
 #define D_BAT_MIN   0.20f
 
@@ -105,7 +107,8 @@ volatile unsigned int PRE_CTR_STT = 0;
 
 
 // ------------- PI DCL.h ------------
-PI BATTERY = {KP_BAT, KI_BAT, 0.0f, D_BAT_MAX, D_BAT_MIN, 1.0f};
+PI BATTERY_CV = {KP_BAT_CV, KI_BAT_CV, 0.0f, D_BAT_MAX, D_BAT_MIN, 1.0f};
+PI BATTERY_CC = {KP_BAT_CC, KI_BAT_CC, 0.0f, D_BAT_MAX, D_BAT_MIN, 1.0f};
 PI PFC1 = {KP_PFC_VL, KI_PFC_VL, 0.0f, U_VL_MAX, U_VL_MIN, 1.0f};
 PI PFC2 = {KP_PFC_IL, KI_PFC_IL, 0.0f, D_IL_MAX, D_IL_MIN, 1.0f};
 

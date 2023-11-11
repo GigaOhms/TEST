@@ -127,7 +127,7 @@ void BAT_Control(void){
 void BAT_CC(void){
     // ------------- NEW CODE ---------------
 //    IBAT = (IBATavg - IBAToffset) * IBATgain;
-    BAT_OUT = 1000 * DCL_runPI(&BATTERY, IBATref, IBAT);
+    BAT_OUT = 1000 * DCL_runPI(&BATTERY_CC, IBATref, IBAT);
     DacaRegs.DACVALS.all = BAT_OUT * 4095.0 / 3000.0;
     EPwm1Regs.CMPA.bit.CMPA = BAT_OUT;
     EPwm1Regs.CMPB.bit.CMPB = BAT_OUT;
@@ -136,7 +136,7 @@ void BAT_CC(void){
 void BAT_CV(void){
     // ------------- NEW CODE ---------------
     VBATavg = MovingAVG_Update(&mVBATavg, VBAT);
-    BAT_OUT = 1000 * DCL_runPI(&BATTERY, VBATref, VBATavg);
+    BAT_OUT = 1000 * DCL_runPI(&BATTERY_CV, VBATref, VBATavg);
     DacaRegs.DACVALS.all = BAT_OUT * 4095.0 / 3000.0;
     EPwm1Regs.CMPA.bit.CMPA = BAT_OUT;
     EPwm1Regs.CMPB.bit.CMPB = BAT_OUT;
