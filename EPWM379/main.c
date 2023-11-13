@@ -80,9 +80,7 @@ void main(void)
         VPFCavg = MovingAVG_Update(&mVPFCavg, VBATmeas);
 //        ILavg = MovingAVG_Update(&mILavg, ILmeas);
 //        VPFCavg = MovingAVG_Update(&mVPFCavg, VPFCmeas);
-        if (IBATavg >= 2.45)
-            IBAT = (IBATavg - IBAToffset) * IBATgain20;
-        else IBAT = (IBATavg - IBAToffset) * IBATgain;
+
 
 //        CalibBAT();
         CalibPFC();
@@ -100,7 +98,6 @@ __interrupt void epwm1_isr(void)
 //    BAT_Control();
     readSensor();
     CalibBAT();
-    IBATavg = MovingAVG_Update(&mIBATavg, IBATmeas);
     BAT_CC();
 //    BAT_CV();
     DacaRegs.DACVALS.all = BAT_OUT * 4095.0 / 3000.0;
@@ -128,6 +125,10 @@ void BAT_Control(void){
 void BAT_CC(void){
     // ------------- NEW CODE ---------------
 //    IBAT = (IBATavg - IBAToffset) * IBATgain;
+    IBATavg = MovingAVG_Update(&mIBATavg, IBATmeas);
+    if (IBATavg >= 2.45)
+        IBAT = (IBATavg - IBAToffset) * IBATgain20;
+    else IBAT = (IBATavg - IBAToffset) * IBATgain;
     BAT_OUT = 1000 * DCL_runPI(&BATTERY_CC, IBATref, IBAT);
     DacaRegs.DACVALS.all = BAT_OUT * 4095.0 / 3000.0;
     EPwm1Regs.CMPA.bit.CMPA = BAT_OUT;
