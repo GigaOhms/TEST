@@ -26,8 +26,8 @@
 
 #define KP_BAT_CV     0.01f
 #define KI_BAT_CV     0.001f
-#define KP_BAT_CC     0.5f
-#define KI_BAT_CC     1.0f
+#define KP_BAT_CC     0.2f
+#define KI_BAT_CC     0.0001f // 2
 #define VBATref     42.0f
 #define IBATref     1.00f
 #define D_BAT_MAX   0.47f
