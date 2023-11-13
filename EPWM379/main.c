@@ -95,9 +95,11 @@ __interrupt void epwm1_isr(void)
     PieCtrlRegs.PIEACK.all = PIEACK_GROUP3;     // Acknowledge this interrupt to receive more interrupts from group 3
 
 //    PFC_Control();
-//    BAT_Control();
+
     readSensor();
     CalibBAT();
+
+//    BAT_Control();
     BAT_CC();
 //    BAT_CV();
     DacaRegs.DACVALS.all = BAT_OUT * 4095.0 / 3000.0;
