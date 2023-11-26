@@ -73,13 +73,13 @@ void main(void)
             YELLOW_LIGHT();
         PRE_CTR_STT = CTR_STT;
 
+        DacaRegs.DACVALS.all = BAT_OUT * 4095.0 / 3000.0;
 
 //        readSensor();
     //    peakDETECT();
 
         VPFCavg = MovingAVG_Update(&mVPFCavg, VBATmeas);
 //        ILavg = MovingAVG_Update(&mILavg, ILmeas);
-//        VPFCavg = MovingAVG_Update(&mVPFCavg, VPFCmeas);
 
 
 //        CalibBAT();
@@ -94,15 +94,15 @@ __interrupt void epwm1_isr(void)
     EPwm1Regs.ETCLR.bit.INT = 1;                // Clear INT flag for this timer
     PieCtrlRegs.PIEACK.all = PIEACK_GROUP3;     // Acknowledge this interrupt to receive more interrupts from group 3
 
-//    PFC_Control();
 
     readSensor();
     CalibBAT();
 
-//    BAT_Control();
-    BAT_CC();
+    BAT_Control();
+//    PFC_Control();
+//    BAT_CC();
 //    BAT_CV();
-    DacaRegs.DACVALS.all = BAT_OUT * 4095.0 / 3000.0;
+
 }
 
 void PFC_Control(void){
@@ -132,7 +132,6 @@ void BAT_CC(void){
         IBAT = (IBATavg - IBAToffset) * IBATgain20;
     else IBAT = (IBATavg - IBAToffset) * IBATgain;
     BAT_OUT = 1000 * DCL_runPI(&BATTERY_CC, IBATref, IBAT);
-    DacaRegs.DACVALS.all = BAT_OUT * 4095.0 / 3000.0;
     EPwm1Regs.CMPA.bit.CMPA = BAT_OUT;
     EPwm1Regs.CMPB.bit.CMPB = BAT_OUT;
 }

@@ -17,20 +17,20 @@
 #define KI_PFC_VL  0.01f
 #define KP_PFC_IL  80.0f
 #define KI_PFC_IL  0.002f
-#define VPFCref    390.0f
-#define divVPFCref 0.002564102f // ----- 1 / VPFCref
+#define VPFCref    350.0f
+#define divVPFCref 0.002857142857f // ----- 1 / VPFCref
 #define U_VL_MAX   5.0f
 #define U_VL_MIN   0.0f
-#define D_IL_MAX   0.45f
+#define D_IL_MAX   0.25f
 #define D_IL_MIN   0.0f
 
 #define KP_BAT_CV     0.01f
 #define KI_BAT_CV     0.001f
 #define KP_BAT_CC     0.1f
 #define KI_BAT_CC     0.0001f // 2
-#define VBATref     42.0f
-#define IBATref     3.00f
-#define D_BAT_MAX   0.47f
+#define VBATref     40.0f
+#define IBATref     2.00f
+#define D_BAT_MAX   0.45f
 #define D_BAT_MIN   0.20f
 
 #define VoffsetVAC  1.05f
@@ -77,32 +77,6 @@ volatile unsigned int PRE_CTR_STT = 0;
 #define     IBAT_READ1  AdccResultRegs.ADCRESULT0
 #define     IBAT_READ2  AdccResultRegs.ADCRESULT2
 #define     IBAT_READ3  AdccResultRegs.ADCRESULT4
-
-//typedef struct PI_VAR{
-//    float ERROR;
-//    float INTEGRAL;
-//    float KP;
-//    float KI;
-//    float DMAX;
-//    float DMIN;
-//    float OUT;
-//} PI_VAR;
-
-//volatile PI_VAR PFC;
-//volatile PI_VAR BAT;
-//volatile PI_VAR PFC1;
-//volatile PI_VAR PFC2;
-
-
-//    PFC1.KP = KP_PFC_VL;
-//    PFC1.KI = KI_PFC_VL;
-//    PFC1.DMAX = LOOP1_MAX;
-//    PFC1.DMIN = LOOP1_MIN;
-//
-//    PFC2.KP = KP_PFC_IL;
-//    PFC2.KI = KI_PFC_IL;
-//    PFC2.DMAX = D_PFC_MAX;
-//    PFC2.DMIN = D_PFC_MIN;
 
 
 
@@ -180,23 +154,6 @@ inline void readSensor(void){
     ILmeas      = (float)(IL_READ1   + IL_READ2   + IL_READ3)   /4095.0; // / ILgain   * ILcalib;
     IBATmeas    = (float)(IBAT_READ1 + IBAT_READ2 + IBAT_READ3) /4095.0; // / IBATgain * IBATcalib;
 }
-
-//void setupVAR(void){
-//    BAT.KP = KP_BAT;
-//    BAT.KI = KI_BAT;
-//    BAT.DMIN = D_BAT_MIN;
-//    BAT.DMAX = D_BAT_MAX;
-//
-//    PFC1.KP = KP_PFC_VL;
-//    PFC1.KI = KI_PFC_VL;
-//    PFC1.DMAX = LOOP1_MAX;
-//    PFC1.DMIN = LOOP1_MIN;
-//
-//    PFC2.KP = KP_PFC_IL;
-//    PFC2.KI = KI_PFC_IL;
-//    PFC2.DMAX = D_PFC_MAX;
-//    PFC2.DMIN = D_PFC_MIN;
-//}
 
 void CalibVAC(void);
 void CalibPFC(void);

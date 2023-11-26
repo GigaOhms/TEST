@@ -1731,7 +1731,7 @@ void SVWave(void){
  8001398:	a0000000 	.word	0xa0000000
  800139c:	3fe99999 	.word	0x3fe99999
  80013a0:	00000000 	.word	0x00000000
- 80013a4:	40ac1e00 	.word	0x40ac1e00
+ 80013a4:	409c1c00 	.word	0x409c1c00
  80013a8:	eb1c432d 	.word	0xeb1c432d
  80013ac:	3f1a36e2 	.word	0x3f1a36e2
  80013b0:	20000510 	.word	0x20000510
@@ -2993,9 +2993,9 @@ static void MX_TIM1_Init(void)
  8001e76:	4b47      	ldr	r3, [pc, #284]	; (8001f94 <MX_TIM1_Init+0x168>)
  8001e78:	2220      	movs	r2, #32
  8001e7a:	609a      	str	r2, [r3, #8]
-  htim1.Init.Period = 3599;
+  htim1.Init.Period = 1799;
  8001e7c:	4b45      	ldr	r3, [pc, #276]	; (8001f94 <MX_TIM1_Init+0x168>)
- 8001e7e:	f640 620f 	movw	r2, #3599	; 0xe0f
+ 8001e7e:	f240 7207 	movw	r2, #1799	; 0x707
  8001e82:	60da      	str	r2, [r3, #12]
   htim1.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
  8001e84:	4b43      	ldr	r3, [pc, #268]	; (8001f94 <MX_TIM1_Init+0x168>)
@@ -3131,8 +3131,8 @@ static void MX_TIM1_Init(void)
   sBreakDeadTimeConfig.LockLevel = TIM_LOCKLEVEL_OFF;
  8001f5c:	2300      	movs	r3, #0
  8001f5e:	60fb      	str	r3, [r7, #12]
-  sBreakDeadTimeConfig.DeadTime = DEADTIME_1US;
- 8001f60:	2348      	movs	r3, #72	; 0x48
+  sBreakDeadTimeConfig.DeadTime = DEADTIME_2US;
+ 8001f60:	2388      	movs	r3, #136	; 0x88
  8001f62:	613b      	str	r3, [r7, #16]
   sBreakDeadTimeConfig.BreakState = TIM_BREAK_DISABLE;
  8001f64:	2300      	movs	r3, #0
