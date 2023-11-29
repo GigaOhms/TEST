@@ -2,7 +2,7 @@
 #define F 50.0f
 #define Ma 0.8f
 #define SQRT3	1.7320508075688772935274463415059f
-#define TOP0 1799.0f // TIM1_ARR
+#define TOP0 3599.0f // TIM1_ARR
 
 volatile uint16_t S11[201];
 volatile uint16_t S22[201];

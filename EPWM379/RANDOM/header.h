@@ -29,7 +29,7 @@
 #define KP_BAT_CC     0.1f
 #define KI_BAT_CC     0.0001f // 2
 #define VBATref     40.0f
-#define IBATref     2.00f
+#define IBATref     3.00f
 #define D_BAT_MAX   0.45f
 #define D_BAT_MIN   0.20f
 

@@ -139,7 +139,9 @@ int main(void)
   HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, 0x0);
   TIM4->ARR = (uint32_t)(round(setupTime * 10000.0f / setupFrequence - 0.6));
 
-
+//  TIM1->CCR1 = S11[50];
+//  TIM1->CCR2 = S11[50];
+//  TIM1->CCR3 = S11[50];
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -154,9 +156,6 @@ int main(void)
 	  periodNow = (uint32_t)(round(360000.0 / frequenceNow));
 	  pscNow = (uint32_t)(round(1000.0 / frequenceNow));
 
-	  TIM1->CCR1 = S11[arrIndex];		// PWM1 = A8	PWM1N = A7
-	  TIM1->CCR2 = S22[arrIndex];		// PWM2 = A9	PWM2N = B0
-	  TIM1->CCR3 = S33[arrIndex];		// PWM3 = A10	PWM3N = B1
 
   /* USER CODE END 3 */
   }
@@ -278,7 +277,7 @@ static void MX_TIM1_Init(void)
   htim1.Instance = TIM1;
   htim1.Init.Prescaler = 0;
   htim1.Init.CounterMode = TIM_COUNTERMODE_CENTERALIGNED1;
-  htim1.Init.Period = 1799;
+  htim1.Init.Period = 3599;
   htim1.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim1.Init.RepetitionCounter = 0;
   htim1.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
@@ -323,7 +322,7 @@ static void MX_TIM1_Init(void)
   sBreakDeadTimeConfig.OffStateRunMode = TIM_OSSR_DISABLE;
   sBreakDeadTimeConfig.OffStateIDLEMode = TIM_OSSI_DISABLE;
   sBreakDeadTimeConfig.LockLevel = TIM_LOCKLEVEL_OFF;
-  sBreakDeadTimeConfig.DeadTime = DEADTIME_2US;
+  sBreakDeadTimeConfig.DeadTime = DEADTIME_1US;
   sBreakDeadTimeConfig.BreakState = TIM_BREAK_DISABLE;
   sBreakDeadTimeConfig.BreakPolarity = TIM_BREAKPOLARITY_HIGH;
   sBreakDeadTimeConfig.AutomaticOutput = TIM_AUTOMATICOUTPUT_DISABLE;
@@ -470,6 +469,9 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 			STT = ~STT;
 			HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, STT);
 		}
+		  TIM1->CCR1 = S11[arrIndex];		// PWM1 = A8	PWM1N = A7
+		  TIM1->CCR2 = S22[arrIndex];		// PWM2 = A9	PWM2N = B0
+		  TIM1->CCR3 = S33[arrIndex];		// PWM3 = A10	PWM3N = B1
 	}
 	if (htim->Instance == TIM4) {
 		if (frequenceNow <= setupFrequence){
