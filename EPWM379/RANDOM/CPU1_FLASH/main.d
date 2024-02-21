@@ -4,12 +4,20 @@ main.obj: C:/Users/Serena/Desktop/test/EPWM379/main.c
 main.obj: C:/ti/controlSUITE/device_support/F2837xD/v210/F2837xD_common/include/F28x_Project.h
 main.obj: C:/ti/controlSUITE/device_support/F2837xD/v210/F2837xD_common/include/F2837xD_Cla_typedefs.h
 main.obj: C:/ti/controlSUITE/device_support/F2837xD/v210/F2837xD_headers/include/F2837xD_device.h
-main.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/R2018a/3P778C~1.INS/TIC200~1.INS/ti-cgt-c2000_16.9.2.LTS/include/assert.h
-main.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/R2018a/3P778C~1.INS/TIC200~1.INS/ti-cgt-c2000_16.9.2.LTS/include/linkage.h
-main.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/R2018a/3P778C~1.INS/TIC200~1.INS/ti-cgt-c2000_16.9.2.LTS/include/stdarg.h
-main.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/R2018a/3P778C~1.INS/TIC200~1.INS/ti-cgt-c2000_16.9.2.LTS/include/stdbool.h
-main.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/R2018a/3P778C~1.INS/TIC200~1.INS/ti-cgt-c2000_16.9.2.LTS/include/stddef.h
-main.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/R2018a/3P778C~1.INS/TIC200~1.INS/ti-cgt-c2000_16.9.2.LTS/include/stdint.h
+main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/assert.h
+main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/_ti_config.h
+main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/linkage.h
+main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/stdarg.h
+main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/sys/_types.h
+main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/sys/cdefs.h
+main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/machine/_types.h
+main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/stdbool.h
+main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/stddef.h
+main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/stdint.h
+main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/_stdint40.h
+main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/sys/stdint.h
+main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/machine/_stdint.h
+main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/sys/_stdint.h
 main.obj: C:/ti/controlSUITE/device_support/F2837xD/v210/F2837xD_headers/include/F2837xD_adc.h
 main.obj: C:/ti/controlSUITE/device_support/F2837xD/v210/F2837xD_headers/include/F2837xD_analogsubsys.h
 main.obj: C:/ti/controlSUITE/device_support/F2837xD/v210/F2837xD_headers/include/F2837xD_cla.h
@@ -57,8 +65,9 @@ main.obj: C:/ti/controlSUITE/device_support/F2837xD/v210/F2837xD_common/include/
 main.obj: C:/ti/controlSUITE/device_support/F2837xD/v210/F2837xD_common/include/F2837xD_SysCtrl_defines.h
 main.obj: C:/ti/controlSUITE/device_support/F2837xD/v210/F2837xD_common/include/F2837xD_Upp_defines.h
 main.obj: C:/ti/controlSUITE/device_support/F2837xD/v210/F2837xD_common/include/F2837xD_defaultisr.h
-main.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/R2018a/3P778C~1.INS/TIC200~1.INS/ti-cgt-c2000_16.9.2.LTS/include/math.h
-main.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/R2018a/3P778C~1.INS/TIC200~1.INS/ti-cgt-c2000_16.9.2.LTS/include/_defs.h
+main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/math.h
+main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/_defs.h
+main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/machine/_limits.h
 main.obj: C:/Users/Serena/Desktop/test/EPWM379/RANDOM/MovingAVG.h
 main.obj: C:/Users/Serena/Desktop/test/EPWM379/RANDOM/header.h
 main.obj: C:/Users/Serena/Desktop/test/EPWM379/RANDOM/DCL.h
@@ -71,17 +80,33 @@ C:/ti/controlSUITE/device_support/F2837xD/v210/F2837xD_common/include/F2837xD_Cl
 
 C:/ti/controlSUITE/device_support/F2837xD/v210/F2837xD_headers/include/F2837xD_device.h:
 
-C:/PROGRA~3/MATLAB/SUPPOR~1/R2018a/3P778C~1.INS/TIC200~1.INS/ti-cgt-c2000_16.9.2.LTS/include/assert.h:
+C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/assert.h:
 
-C:/PROGRA~3/MATLAB/SUPPOR~1/R2018a/3P778C~1.INS/TIC200~1.INS/ti-cgt-c2000_16.9.2.LTS/include/linkage.h:
+C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/_ti_config.h:
 
-C:/PROGRA~3/MATLAB/SUPPOR~1/R2018a/3P778C~1.INS/TIC200~1.INS/ti-cgt-c2000_16.9.2.LTS/include/stdarg.h:
+C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/linkage.h:
 
-C:/PROGRA~3/MATLAB/SUPPOR~1/R2018a/3P778C~1.INS/TIC200~1.INS/ti-cgt-c2000_16.9.2.LTS/include/stdbool.h:
+C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/stdarg.h:
 
-C:/PROGRA~3/MATLAB/SUPPOR~1/R2018a/3P778C~1.INS/TIC200~1.INS/ti-cgt-c2000_16.9.2.LTS/include/stddef.h:
+C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/sys/_types.h:
 
-C:/PROGRA~3/MATLAB/SUPPOR~1/R2018a/3P778C~1.INS/TIC200~1.INS/ti-cgt-c2000_16.9.2.LTS/include/stdint.h:
+C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/sys/cdefs.h:
+
+C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/machine/_types.h:
+
+C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/stdbool.h:
+
+C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/stddef.h:
+
+C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/stdint.h:
+
+C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/_stdint40.h:
+
+C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/sys/stdint.h:
+
+C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/machine/_stdint.h:
+
+C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/sys/_stdint.h:
 
 C:/ti/controlSUITE/device_support/F2837xD/v210/F2837xD_headers/include/F2837xD_adc.h:
 
@@ -177,9 +202,11 @@ C:/ti/controlSUITE/device_support/F2837xD/v210/F2837xD_common/include/F2837xD_Up
 
 C:/ti/controlSUITE/device_support/F2837xD/v210/F2837xD_common/include/F2837xD_defaultisr.h:
 
-C:/PROGRA~3/MATLAB/SUPPOR~1/R2018a/3P778C~1.INS/TIC200~1.INS/ti-cgt-c2000_16.9.2.LTS/include/math.h:
+C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/math.h:
 
-C:/PROGRA~3/MATLAB/SUPPOR~1/R2018a/3P778C~1.INS/TIC200~1.INS/ti-cgt-c2000_16.9.2.LTS/include/_defs.h:
+C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/_defs.h:
+
+C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include/machine/_limits.h:
 
 C:/Users/Serena/Desktop/test/EPWM379/RANDOM/MovingAVG.h:
 

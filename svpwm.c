@@ -6,7 +6,7 @@
 #define F 50.0f
 #define M 0.71
 #define SQRT3	1.7320508075688772935274463415059f
-#define TOP0 3599.0f
+#define TOP0 255.0f
 
 volatile double va, vb, vc;
 volatile double t = 0.0;
@@ -28,8 +28,8 @@ int main(int argc, char const *argv[])
 }
 
 void SVWave(void){
-    printf("float va[201] = {");
-    for (int i = 0; i < 200; i++){
+    printf("float va[101] = {");
+    for (int i = 0; i < 100; i++){
         va = (sin(2.0*pi*F*t) + 1) / 2.0;
         vb = (sin(2.0*pi*F*t + 2.0*pi/3.0) + 1.0) / 2.0;
         vc = (sin(2.0*pi*F*t + 4.0*pi/3.0) + 1.0) / 2.0;
@@ -39,8 +39,8 @@ void SVWave(void){
         S11 = round(((S1 - 0.5) * 1.0f + 0.5) * TOP0 + 0.5);
         S22 = round(((S2 - 0.5) * 1.0f + 0.5) * TOP0 + 0.5);
         S33 = round(((S3 - 0.5) * 1.0f + 0.5) * TOP0 + 0.5);
-        printf("%d\n", S33);      // Updata M: (S3 - 0.5) * M + 0.5  
-        t += 0.0001; // 0 <= t <= 0.02
+        printf("%d, ", S33);      // Updata M: (S3 - 0.5) * M + 0.5  
+        t += 0.0002; // 0 <= t <= 0.02
     }
     printf("}\n");
 }

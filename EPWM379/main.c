@@ -73,7 +73,7 @@ void main(void)
             YELLOW_LIGHT();
         PRE_CTR_STT = CTR_STT;
 
-        DacaRegs.DACVALS.all = BAT_OUT * 4095.0 / 3000.0;
+        //DacaRegs.DACVALS.all = BAT_OUT * 4095.0 / 3000.0;
 
 //        readSensor();
     //    peakDETECT();
@@ -93,7 +93,6 @@ __interrupt void epwm1_isr(void)
 {
     EPwm1Regs.ETCLR.bit.INT = 1;                // Clear INT flag for this timer
     PieCtrlRegs.PIEACK.all = PIEACK_GROUP3;     // Acknowledge this interrupt to receive more interrupts from group 3
-
 
     readSensor();
     CalibBAT();
